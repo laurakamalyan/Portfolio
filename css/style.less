@@ -1,0 +1,117 @@
+@color: rgb(8, 8, 8);
+@active_color: rgba(29, 94, 29, 0.6);
+@font-path: '../webfonts/'; 
+
+@font-face {
+  font-family: 'MyCustomFont'; 
+  src: url(~"@{font-path}WinkyRough-Regular.ttf") format('truetype'); 
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'MyCustomFont', sans-serif;
+}
+
+button {
+    padding: 8px 50px;
+    border: 2px solid @color;
+    background-color: #fff;
+
+    a {
+        color: @color;
+        text-decoration: none;
+        font-weight: 900;
+        font-size: 18px;
+    }
+
+    &:hover {
+        background-color: @active_color;
+        border-color: #fff;
+        
+        a {
+            color: #fff;
+        }
+    }
+}
+
+#home {
+    background-image: url(../img/top-view-keyboard-desk-with-succulent-plant-leaves.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+
+    .layer {
+        background-color: rgba(185, 185, 190, 0.4); 
+    }
+
+    #about {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -45%);
+        padding: 60px;
+        color: @color;
+
+        p {
+            color: #87818f;
+            top: 100px;
+            animation: moveUp 2s forwards;
+        }
+    }
+}
+
+#resume { 
+    padding-bottom: 70px;   
+    .skills {
+        color: #fff;
+        padding-bottom: 20px;
+        background-color: rgb(8, 8, 8);
+
+        h3 {
+            padding-top: 100px;
+            padding-bottom: 30px;
+        }
+
+        .skill {
+            &:hover {
+                cursor: pointer;
+
+                p {
+                    color: @active_color;
+                }
+            }
+        }
+        
+        i {
+            font-size: 60px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+        
+        img {
+            width: 60px;
+        }
+    }
+
+    .education, .experience {
+        h3, h5 {
+            color: @color;
+        }
+
+        h3 {
+            margin-top: 70px;
+        }
+    }
+}
+
+@keyframes moveUp {
+    from {
+        top: 100px;
+    }
+    to {
+        top: 0;
+    }
+}

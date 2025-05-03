@@ -1,0 +1,21 @@
+footer {
+  background-color: #080808;
+  position: relative;
+}
+footer .footer_menu {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+footer img {
+  width: 30px;
+  filter: grayscale(100%) brightness(1000%);
+  margin-right: 8px;
+}
+footer i {
+  font-size: 30px;
+  margin-right: 8px;
+}
+footer .jquery {
+  margin-top: -15px;
+}

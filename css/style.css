@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url(../webfonts/WinkyRough-Regular.ttf) format('truetype');
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'MyCustomFont', sans-serif;
+}
+button {
+  padding: 8px 50px;
+  border: 2px solid #080808;
+  background-color: #fff;
+}
+button a {
+  color: #080808;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 18px;
+}
+button:hover {
+  background-color: rgba(29, 94, 29, 0.6);
+  border-color: #fff;
+}
+button:hover a {
+  color: #fff;
+}
+#home {
+  background-image: url(../img/top-view-keyboard-desk-with-succulent-plant-leaves.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#home .layer {
+  background-color: rgba(185, 185, 190, 0.4);
+}
+#home #about {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -45%);
+  padding: 60px;
+  color: #080808;
+}
+#home #about p {
+  color: #87818f;
+  top: 100px;
+  animation: moveUp 2s forwards;
+}
+#resume {
+  padding-bottom: 70px;
+}
+#resume .skills {
+  color: #fff;
+  padding-bottom: 20px;
+  background-color: #080808;
+}
+#resume .skills h3 {
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+#resume .skills .skill:hover {
+  cursor: pointer;
+}
+#resume .skills .skill:hover p {
+  color: rgba(29, 94, 29, 0.6);
+}
+#resume .skills i {
+  font-size: 60px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+#resume .skills img {
+  width: 60px;
+}
+#resume .education h3,
+#resume .experience h3,
+#resume .education h5,
+#resume .experience h5 {
+  color: #080808;
+}
+#resume .education h3,
+#resume .experience h3 {
+  margin-top: 70px;
+}
+@keyframes moveUp {
+  from {
+    top: 100px;
+  }
+  to {
+    top: 0;
+  }
+}

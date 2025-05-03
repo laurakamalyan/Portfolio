@@ -1,0 +1,40 @@
+@media screen and (max-width: 1020px) {
+    #home #about {
+        top: 20%;
+        left: 0;
+        transform: translate(0, 0);
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .footer_menu {
+        position: relative !important;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .navbar-nav {
+        background-color: #fff;
+        padding: 60px 35px 20px 0;
+    }
+
+    nav {
+        background-color: #fff;
+        height: 60px;
+
+        .container {
+            padding: 0;
+        }
+
+        .nav-link {
+            color: rgb(102, 94, 109);
+            text-align: right;
+            margin: 0;
+        }
+    }
+
+    #home #about {
+        padding: 30px;
+    }
+}

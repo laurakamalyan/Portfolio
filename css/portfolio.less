@@ -1,0 +1,22 @@
+@color: rgb(8, 8, 8);
+@active_color: rgba(29, 94, 29, 0.6);
+
+#portfolio {
+    .nav-pills {
+        margin-top: 20px;
+        margin-bottom: 30px;
+
+        .nav-link {
+            color: @color;
+            border: 1px solid @color;
+            margin-right: 10px;
+            margin-bottom: 10px;
+
+            &.active, &:hover {
+                border-color: #fff;
+                background-color: @active_color;
+                color: #fff;
+            }
+        }
+    }
+}

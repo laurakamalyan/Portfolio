@@ -1,0 +1,36 @@
+@color: rgb(8, 8, 8);
+@active_color: rgba(29, 94, 29, 0.6);
+@font-path: '../webfonts/';
+
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url(~"@{font-path}WinkyRough-Regular.ttf") format('truetype');
+}
+
+body {
+    font-family: 'MyCustomFont', sans-serif;
+}
+
+#portfolio {
+    padding-bottom: 70px;
+
+    h3 {
+        padding-top: 100px;
+        padding-bottom: 50px;
+        color: @color;
+    }
+
+    .col-md-6,
+    .col-md-4 {
+        .site {
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(139, 218, 139, 0.6);
+        }
+
+        .website_name {
+            font-weight: 900;
+            margin-top: 20px;
+            color: @color;
+        }
+    }
+}

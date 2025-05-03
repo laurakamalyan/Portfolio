@@ -1,0 +1,16 @@
+#portfolio .nav-pills {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+#portfolio .nav-pills .nav-link {
+  color: #080808;
+  border: 1px solid #080808;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+#portfolio .nav-pills .nav-link.active,
+#portfolio .nav-pills .nav-link:hover {
+  border-color: #fff;
+  background-color: rgba(29, 94, 29, 0.6);
+  color: #fff;
+}
