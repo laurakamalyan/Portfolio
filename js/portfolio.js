@@ -20,6 +20,7 @@ $(function(){
         else if (site.category === 'bootstrap3') $('#bootstrap3Sites').append(card);
         else if (site.category === 'bootstrap5') $('#bootstrap5Sites').append(card);
         else if (site.category === 'php') $('#phpSites').append(card);
+        else if (site.category === 'vue') $('#vueSites').append(card);
     });
 
     // Add footer

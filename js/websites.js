@@ -83,6 +83,27 @@ export const websites = [
         tech: 'PHP, MySQL, JQuery, AJAX',
         category: 'php',
     },
+    {
+        href: 'https://jamesconsulting.netlify.app/about',
+        src: 'img/websites/jamesconsulting.png',
+        alt: 'James Consulting - Developing Innovative Strategies',
+        tech: 'TailwindCSS, Vue 3',
+        category: 'vue',
+    },
+    {
+        href: 'https://edgecutfurniture.netlify.app/',
+        src: 'img/websites/edgecut.png',
+        alt: 'Edgecut - Online Furniture Shop',
+        tech: 'TailwindCSS, Vue 3',
+        category: 'vue',
+    },
+    // {
+    //     href: 'websites/index.html',
+    //     src: 'img/websites/.png',
+    //     alt: '',
+    //     tech: '',
+    //     category: '',
+    // },
     // {
     //     href: 'websites/index.html',
     //     src: 'img/websites/.png',
