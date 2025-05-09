@@ -84,7 +84,7 @@ export const websites = [
         category: 'php',
     },
     {
-        href: 'https://jamesconsulting.netlify.app/about',
+        href: 'https://jamesconsulting.netlify.app/',
         src: 'img/websites/jamesconsulting.png',
         alt: 'James Consulting - Developing Innovative Strategies',
         tech: 'TailwindCSS, Vue 3',
